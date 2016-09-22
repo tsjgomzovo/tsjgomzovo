@@ -1,0 +1,7 @@
+# site configuration
+title: ТСН «Гомзовское»
+email: tsjgomzovo@gmail.com
+description: Сайт ТСН «Гомзовское».
+url: "http://tsjgomzovo.github.io"
+
+excerpt_separator: <!--more-->

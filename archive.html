@@ -12,7 +12,7 @@ title: Все новости
 
     <div class="post_title">
       <a href="{{ post.url }}">{{ post.title}}</a>
-      <span class="date">{{ post.date | localize: "%-d %b, %Y" }}</span>
+      <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
     </div>
 
     {% endfor %}

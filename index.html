@@ -11,7 +11,7 @@ title: Home
     <article class="post_card post">
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | localize: "%d %B %Y, %A" }}</time>
+        <time class="post_date">{{ post.date | date: "%d.%m.%y" }}</time>
       </header>
       <div class="post_excerpt">
         <p>
@@ -32,6 +32,6 @@ title: Home
     </article>
     {% endfor %}
 
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Архив  </a></div>
+    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Архив новостей </a></div>
   </div>
 </div>

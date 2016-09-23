@@ -7,6 +7,17 @@ title: Документация
 
   <h2>Документация</h2>
 
+  <h4>Итоги общих собраний пользователей:</h4>
+
+  <ul>
+    {% for result in site.data.meeting_results %}
+
+    <li><a href="/assets/docs/meeting/results/{{ result.date }}.{{ result.format }}">{{ result.title}}</a></li>
+
+    {% endfor %}
+
+  </ul>
+
   <h4>Протоколы собраний правления ТСН:</h4>
 
   <ul>
@@ -17,5 +28,5 @@ title: Документация
     {% endfor %}
 
   </ul>
-
+  
 </div>

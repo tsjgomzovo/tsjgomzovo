@@ -1,0 +1,21 @@
+---
+layout: default
+title: Документация
+---
+
+<div>
+
+  <h2>Документация</h2>
+
+  <h4>Протоколы собраний правления ТСН:</h4>
+
+  <ul>
+    {% for protocol in site.data.protocols %}
+
+    <li><a href="/assets/docs/board/protocols/{{ protocol.date }}.{{ protocol.format }}">{{ protocol.title}}</a></li>
+
+    {% endfor %}
+
+  </ul>
+
+</div>

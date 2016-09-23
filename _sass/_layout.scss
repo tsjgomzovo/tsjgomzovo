@@ -178,10 +178,18 @@ input#menu-toggle {
 
 .post {
   @extend .dont-break-out;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .post-list {
   
+}
+
+.footnotes {
+  color: #888;
 }
 
 .post_header {

@@ -41,7 +41,7 @@ permalink: /organization
 			<td>5</td>
 		</tr>
 		<tr>
-			<td></td>
+			<td>Шуварова Светлана Валентиновна</td>
 			<td>6</td>
 		</tr>
 		<tr>

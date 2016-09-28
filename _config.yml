@@ -4,4 +4,5 @@ email: tsngomzovskoe@gmail.com
 description: Сайт ТСН «Гомзовское».
 url: "http://tsngomzovskoe.github.io"
 
+permalink: pretty
 excerpt_separator: <!--more-->
